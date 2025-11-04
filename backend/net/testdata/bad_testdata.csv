@@ -1,0 +1,6 @@
+id,name,birthdate,role,role
+1,Gyerek Gyula,2015,Camper,User
+1,Tanár Tünde,1965,Pedagogue,User
+3,#ERROR: name too long;, #ERROR: Invalid literals;,1992,Organizer,User
+4,Melegh Mária,2032,Camper,User
+5,Admin Adolf,kakika,Admin,User
