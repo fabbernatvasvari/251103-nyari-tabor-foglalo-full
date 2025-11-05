@@ -1,5 +1,5 @@
-id,name,organizer_id
-1,cserkésztábor,4
-2,Dr. Code tábor,6
-3,Erzsébet-tábor 1. turnus,4
-4,Erdei vándortábor,2
+CREATE TABLE IF NOT EXISTS CAMPS{
+    id INTEGER AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    name TEXT NOT NULL,
+    organizer_id INTEGER NOT NULL,
+}
