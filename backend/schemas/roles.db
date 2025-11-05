@@ -1,0 +1,8 @@
+id,name,is_admin,is_pedagogue,is_organizer,is_camper
+CREATE TABLE IF NOT EXISTS ROLES{
+    id INTEGER AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    is_admin INTEGER NOT NULL,
+    is_pedagogue INTEGER NOT NULL,
+    is_organizer INTEGER NOT NULL,
+    is_camper INTEGER NOT NULL,
+}
