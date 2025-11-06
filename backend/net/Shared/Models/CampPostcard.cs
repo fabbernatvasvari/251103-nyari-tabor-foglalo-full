@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.Shared.Models
 {
-    internal class Erzekenyseg
+    internal class CampPostcard
     {
-        private _isDiabolical = false;
+        private bool isFeatured;
 
-        public Erzekenyseg() { }
-        public IsDiabolical = {get;  set;};
-}
+        public bool IsFeatured { get => isFeatured; set => isFeatured = value; }
+    }
 }

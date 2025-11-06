@@ -8,9 +8,5 @@ namespace ConsoleApp1.Shared.Models
 {
     internal class Erzekenyseg
     {
-        private _isDiabolical = false;
-
-        public Erzekenyseg() { }
-        public IsDiabolical = {get;  set;};
-}
+    }
 }

@@ -8,22 +8,11 @@ namespace ConsoleApp1.Shared.Models
 {
     internal class Organizer: User
     {
-        private string _name;
-        private int _age;
-        private string _email;
-        private string _password;
         private string _phoneNumber;
-        
         public Organizer(string name, int age, string email, string password, string phoneNumber) : base(name, age, email, password)
         {
-            _name = name;
-            _age = age;
-            _email = email;
-            _password = password;
             _phoneNumber = phoneNumber;
         }
-
-        public string Name { get => _name; set => _name = value; }
         public string PhoneNumber { get => _phoneNumber; set => _phoneNumber = value; }
     }
 }
