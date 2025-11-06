@@ -8,5 +8,8 @@ namespace ConsoleApp1.Shared.Models
 {
     internal class Camp
     {
+        public int Id { get; set; } 
+        public string Name { get; set; }
+        public Organizer organizer { get; set; }
     }
 }
