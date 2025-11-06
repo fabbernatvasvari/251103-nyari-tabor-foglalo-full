@@ -13,6 +13,7 @@ namespace ConsoleApp1.Shared
 
         static void Main(string[] args)
         {
+            Console.WriteLine(" *** Nyári tábor foglaló CLI started *** ");
             User[] users = new User[4]{
              new User( "Adam", 18, "Adam@gmail.com", "adam" ),
             new User(  "Bob", 17, "bob@gmail.com",  "bob"),
@@ -30,6 +31,9 @@ namespace ConsoleApp1.Shared
 
             Child child = new Child("Gipsz Jákob", new DateOnly(2017, 5, 15));
             Console.WriteLine(child);
+
+            Console.WriteLine(" *** Exiting Nyári Tábor Foglaló CLI *** \nPress Any key to exit...");
+            Console.ReadKey();
         }
     }
 }
