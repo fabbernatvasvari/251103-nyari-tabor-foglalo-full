@@ -150,7 +150,42 @@ export function MainComponent() {
             </div>
           </div>
         </div>
-      </main >
+          </main >
+      <footer className="footer site-footer" allow-any-element-to-be-outside-of-it: false>
+              <div color="primary" className="footer-toolbar" style={{background-color: #333;}} ></div>
+          <div className="footer-content">
+      
+              <div className="footer-column footer-logo">
+        <h3>Nyári Tábor Foglaló</h3>
+        <p>© {{currentYear}} Minden jog fenntartva</p>
+        <p>Kapcsolat: info&commat;nyaritabor.hu<br>+36 30 123 4567</p>
+      </div>
+
+              <div className="footer-column social-media">
+         <ul>
+                      <li><a className="a" routerLink="#">X (Twitter)</a></li>
+                      <li><a className="a" routerLink="#">Linkedin</a></li>
+                      <li><a className="a" routerLink="#">Discord</a></li>
+                      <li><a className="a" routerLink="#">Slack</a></li>
+        </ul>
+      </div>
+
+              <div className="footer-column watermark">
+                  <p className="name">Fábián Bernát</p>
+                  <p className="link"><a className="a" href="https://fabbernat.github.io" target="_blank">Honlapom</a></p>
+      </div>
+
+      <div className="footer-column footer-links">
+        <ul>
+          <li><a className="a" routerLink="#">.</a></li>
+          <li><a className="a" routerLink="/about">Rólunk</a></li>
+          <li><a className="a" routerLink="/privacy">Adatvédelem</a></li>
+          <li><a className="a" routerLink="/terms">Felhasználási feltételek</a></li>
+        </ul>
+      </div>
+
+    </div>
+</footer>
     </>
   )
 }

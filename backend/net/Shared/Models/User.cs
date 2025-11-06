@@ -30,7 +30,10 @@
             _password = password.ToString();
         }
 
+        [Key]
         public int Id { get => _id; }
+        
+        
         public string Name { get => _name; set => _name = value; }
         public DateOnly BirthDate { get => _birthDate; private set => _birthDate = value; }
         public string Email { get => _email; private set => _email = value; }
