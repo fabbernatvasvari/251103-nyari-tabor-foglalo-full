@@ -1,4 +1,4 @@
-id,name,birthdate,role,role
+id,name,birthdate,role,basicrole
 1,Gyerek Gyula,2015,Camper,User
 1,Tanár Tünde,1965,Pedagogue,User
 3,#ERROR: name too long;, #ERROR: Invalid literals;,1992,Organizer,User

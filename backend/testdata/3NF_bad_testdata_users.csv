@@ -1,0 +1,6 @@
+id,name,birthdate,role,role_hungarian_name,role
+1,Gyerek Gyula,2015,Camper,táborozó,User
+1,Tanár Tünde,1965,Pedagogue,pedagógus,User
+3,#ERROR: name too long;, #ERROR: Invalid literals;,1992,Organizer,táborszervező,User
+4,Melegh Mária,2032,Camper,táborozó,User
+5,Admin Adolf,kakika,Admin,adminisztrátor,User
