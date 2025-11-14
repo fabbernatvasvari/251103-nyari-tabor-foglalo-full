@@ -67,12 +67,9 @@ export function MainComponent() {
           <div className='images'>
 
             <div>
-              <h2>Beszélgess AI Tábor Foglalóval👇</h2>
-              <img src={chatbotIcon} className="forog logo" alt="AI tábor foglaló Chatbot asszisztens" />
-              <img src={chatbotIcon} className="forog logo" alt="AI tábor foglaló Chatbot asszisztens" />
-              <img src={chatbotIcon} className="forog logo" alt="AI tábor foglaló Chatbot asszisztens" />
-              <div className="scroll-arrow">
-                <span className="arrow-text">Görgess Lejjebb a Galériához</span>
+              <h2>👇Beszélgess AI Tábor Foglalóval👇</h2>
+              <img src={chatbotIcon} className="forog logo" alt="AI tábor foglaló Chatbot asszisztens" style={{ width: "20%", height: "auto" }}  />
+                <p className="arrow-text">Görgess Lejjebb a Galériához</p>
                 <div className="arrow">
                   <span></span>
                   <span></span>
@@ -149,43 +146,41 @@ export function MainComponent() {
               </div>
             </div>
           </div>
-        </div>
           </main >
-      <footer className="footer site-footer" allow-any-element-to-be-outside-of-it: false>
-              <div color="primary" className="footer-toolbar" style={{background-color: #333;}} ></div>
-          <div className="footer-content">
-      
-              <div className="footer-column footer-logo">
+        
+      <footer className="footer site-footer">
+        <div className="footer-column footer-logo">
         <h3>Nyári Tábor Foglaló</h3>
-        <p>© {{currentYear}} Minden jog fenntartva</p>
-        <p>Kapcsolat: info&commat;nyaritabor.hu<br>+36 30 123 4567</p>
+        <p>© {} Minden jog fenntartva</p>
+        <p>Kapcsolat: info@nyaritabor.hu<br />+36 30 123 4567</p>
       </div>
 
-              <div className="footer-column social-media">
+      <div className="footer-column social-media">
          <ul>
-                      <li><a className="a" routerLink="#">X (Twitter)</a></li>
-                      <li><a className="a" routerLink="#">Linkedin</a></li>
-                      <li><a className="a" routerLink="#">Discord</a></li>
-                      <li><a className="a" routerLink="#">Slack</a></li>
+          <li><a className="a" href="https://github.com/Fabbernat">GitHub</a></li>
+          <li><a className="a" href="mailto:job.fabbernat@gmail.com">Email</a></li>
+          <li><a className="a" href="https://www.facebook.com/profile.php?id=100012511780116">Facebook</a></li>
+          <li><a className="a" href="https://www.instagram.com/Fabbernat/">Instagram</a></li>
+          <li><a className="a" href="https://www.linkedin.com/in/bern%C3%A1t-f%C3%A1bi%C3%A1n-7a1bb7299/">Linkedin</a></li>
+          <li><a className="a" href="https://x.com/Uni_Szeged">X (Twitter)</a></li>
+          <li><a className="a" href="https://discord.com/users/621387699126796318">Discord</a></li>
         </ul>
       </div>
 
-              <div className="footer-column watermark">
-                  <p className="name">Fábián Bernát</p>
-                  <p className="link"><a className="a" href="https://fabbernat.github.io" target="_blank">Honlapom</a></p>
+      <div className="footer-column watermark">
+        <p className="name">Fábián Bernát</p>
+        <p className="link"><a className="a" href="https://fabbernat.github.io" target="_blank">Honlapom</a></p>
       </div>
 
       <div className="footer-column footer-links">
         <ul>
-          <li><a className="a" routerLink="#">.</a></li>
-          <li><a className="a" routerLink="/about">Rólunk</a></li>
-          <li><a className="a" routerLink="/privacy">Adatvédelem</a></li>
-          <li><a className="a" routerLink="/terms">Felhasználási feltételek</a></li>
+          <li><a className="a" href="/about">Rólunk</a></li>
+          <li><a className="a" href="/privacy">Adatvédelem</a></li>
+          <li><a className="a" href="/terms">Felhasználási feltételek</a></li>
         </ul>
       </div>
 
-    </div>
-</footer>
+      </footer>
     </>
   )
 }
