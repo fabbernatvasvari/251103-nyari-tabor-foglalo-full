@@ -66,3 +66,53 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Light mode (default) */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark mode */
+:root.dark {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+:root.dark body {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+:root.dark nav {
+  background-color: #222222;
+  border-bottom: 1px solid #444444;
+}
+
+:root.dark a {
+  color: #64b5f6;
+}
+
+.theme-toggle {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+:root.dark .theme-toggle {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.theme-toggle:hover {
+  background-color: #e0e0e0;
+}
+
+:root.dark .theme-toggle:hover {
+  background-color: #444444;
+}

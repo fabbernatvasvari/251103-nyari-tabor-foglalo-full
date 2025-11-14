@@ -148,7 +148,7 @@ export function MainComponent() {
           </div>
           </main >
         
-      <footer className="footer site-footer">
+      <footer className="footer site-footer bg-green-400 green-background">
         <div className="footer-column footer-logo">
         <h3>Nyári Tábor Foglaló</h3>
         <p>© {} Minden jog fenntartva</p>
